@@ -13,6 +13,8 @@ tmp/
 Python.docx
 ~$*.docx
 ~*.tmp
+# мои каталоги
+.idea/
 
 
 
