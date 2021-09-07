@@ -11,6 +11,8 @@ tmp/
 
 # мои файлы
 Python.docx
+~$*.docx
+~*.tmp
 
 
 
