@@ -1,0 +1,53 @@
+# будут игнорироваться все файлы и каталоги Thumbs.db
+# вне зависимости от того, в каком каталоге они находятся
+Thumbs.db
+# будет игнорироваться каталог tmp
+# вне зависимости от того, в каком каталоге он находится
+# слэш в конце указывает, что это каталог
+tmp/
+# будет игнорироваться относительно файла .gitingore
+# чаще всего относительно всего проекта
+/tmp/
+
+# мои файлы
+Python.docx
+
+
+
+# https://github.com/github/gitignore
+# Для С++
+
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+
