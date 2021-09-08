@@ -1,0 +1,1 @@
+print((complex(0., 1.) ** complex(0., 1.)).real)
