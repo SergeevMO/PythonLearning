@@ -14,6 +14,7 @@ Python.docx
 ~$*.docx
 ~*.tmp
 
+/Физтех.Статистика
 
 
 # https://github.com/github/gitignore
