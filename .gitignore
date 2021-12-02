@@ -10,7 +10,7 @@ tmp/
 /tmp/
 
 # мои файлы
-Python.docx
+*.docx
 ~$*.docx
 ~*.tmp
 
