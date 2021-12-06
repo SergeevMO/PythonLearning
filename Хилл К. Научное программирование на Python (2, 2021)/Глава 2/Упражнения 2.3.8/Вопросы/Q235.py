@@ -12,3 +12,5 @@ print(s == 'eggs' or s == 'ham')
 print(s == ('ham' or 'eggs'))
 print(s == 'ham' or s == 'eggs')
 
+
+print( s in ('eggs', 'ham'))
