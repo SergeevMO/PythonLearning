@@ -1,7 +1,8 @@
 # Игра FizzBuzz
 num_list = []
+n_max = 100
 
-for i in range(1, 101):
+for i in range(1, n_max+1):
     s = ''
     if not i % 3:
         s += 'Fizz'

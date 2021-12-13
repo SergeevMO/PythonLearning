@@ -28,3 +28,13 @@ if (x >= 0) and (y >= 0) and (x.imag == 0) and (y.imag == 0):
 
     G = 1 / a
 print(f'G = {G}')
+
+
+print('\n')
+
+# второй вариант определения константы Гаусса
+tol = 1.e-14
+an, bn = 1., math.sqrt(2)
+while abs(an - bn) > tol:
+    an, bn = (an + bn) / 2, math.sqrt(an * bn)
+print('G = {:.14f}'.format(1/an))

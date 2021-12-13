@@ -1,5 +1,5 @@
 # Неразветвлённые алканы
-stoich = 'c1h1M'
+stoich = 'c8h18'
 ch2 = '-CH2'
 
 stoich = stoich.upper()
@@ -43,4 +43,18 @@ else:
     print(stoich)
 
 
+print('\n')
+# Второй вариант
+stoich = 'C8H18'
+
+fragments = stoich.split('H')
+nC = int(fragments[0][1:])
+nH = int(fragments[1])
+if nH != 2*nC + 2:
+    print('{} is not an alkane!'.format(stoich))
+else:
+    print('H3C', end='')
+    for i in range(nC-2):
+        print('-CH2', end='')
+    print('-CH3')
 
