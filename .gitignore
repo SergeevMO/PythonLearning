@@ -18,9 +18,10 @@ tmp/
 
 *.png
 *.pdf
+*.html
 
 Физтех.Статистика/
-
+Converting between an OS grid reference and longitude_latitude_files/
 
 
 # https://github.com/github/gitignore
