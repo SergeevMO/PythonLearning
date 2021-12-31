@@ -16,7 +16,8 @@ tmp/
 # мои каталоги
 .idea/
 
-/Физтех.Статистика
+*.png
+*.pdf
 
 
 # https://github.com/github/gitignore
